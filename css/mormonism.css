@@ -1,0 +1,355 @@
+*{
+  /*border: 1px solid rgba(0,0,0,0.3);*/
+    /* The * selector formats the entire webpage */
+  box-sizing: border-box;
+}
+body{
+  background-color: navajowhite;
+  margin-top: 80px;
+  width: 100%;
+  padding: 0 0 0 10;
+  margin-left: 0px;
+  margin-bottom: 0px;
+}
+h1{
+  font-family: 'Quicksand', sans-serif;
+  color: mediumseagreen;
+  font-size: 320%;
+  font-weight: 500;
+  word-spacing: 0.25em;
+  letter-spacing: .05em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0px;
+  margin: 0;
+}
+h2{
+  font-family: 'Quicksand', sans-serif;
+  color: mediumseagreen;
+  font-size: 200%;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 0px;
+}  
+p{
+  font-family: 'Quicksand', sans-serif;
+  color: #444;
+  font-size: 20px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 0px;
+  text-align: left;
+  margin: 1em 0em;
+}
+a {
+  color: mediumseagreen;
+}
+p a:visited {
+  color: #444;
+}
+.navigation{
+  background-color: mediumseagreen;
+  width: 100%;
+  min-height: 70px;
+  height: auto;
+  overflow: hidden;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding-left: 84px;
+  padding-right: 100px;
+  z-index: 100;
+  }
+
+ .navigation_photo_left{
+  background-color: mediumseagreen;
+  width: 64px;
+  height: 64px;
+  position: fixed;
+  top: 3px;
+  left: 5px;
+  padding: 0 0;
+  z-index: 101;
+ }
+ .navigation_photo_right{
+  background-color: mediumseagreen;
+  width: 80px;
+  height: 64px;
+  position: fixed;
+  top: 3px;
+  right: 5px;
+  padding: 0 0;
+  z-index: 101;
+ }
+ 
+ .title_block{
+ background-image: url(../Images/bund_sunrise.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 0;
+ top: 0px;
+ left: 0px;
+ padding-top: 1.25%;
+ padding-bottom: 55%;
+ color: DarkGray;
+ text-align: center;
+ }
+
+.navigation ul{
+  width: 100%;
+  height: 40px;
+  padding: 0 0;
+  text-align: center;
+ /* border: 2px solid red;*/
+  }
+
+
+.navigation a:not(.mobile_menu){
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  font-size: 150%;
+  font-weight: 400;
+  width: auto;
+  line-height: 38px;
+  padding-left: 1.8%;
+  padding-right: 1.8%;
+}
+
+.navigation ul > a{
+  /*border: 1px solid blue;*/
+}
+ .navigation a.link:hover{
+   background-color: rgb(40,120,77);
+ }
+ .navigation .mobile_menu{
+  display: none;
+ }
+.mobile_menu img{
+  height: 30px;
+  width: 30px;
+  padding: 0 0;
+}
+/*.navigation .mobile_menu_exit{
+  display: none;
+}
+.mobile_menu_exit img{
+  height: 30px;
+  width: 30px;
+  padding: 0 0;
+}*/
+.navigation_photo_left img{
+height: 100%;
+display: inline-block;
+}
+.navigation_photo_right img{
+height: 100%;
+display: inline-block;
+}
+.current_page {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(40,120,77);
+  color: WhiteSmoke;
+  display: inline-block;
+  font-size: 100%;
+  /*width: 150px;*/
+  width: 12%;
+  padding: 0 0em;
+}
+.current_page li{
+  width: 100%; /* 100% of 12% for current page div */
+}
+.link {
+  font-family: 'Quicksand', sans-serif;
+  color: WhiteSmoke;
+  display: inline-block;
+  font-size: 100%;
+  /*width: 150px;*/
+  width: 12%;
+  padding: 0 0em;
+}
+.unfinished_link {
+  font-family: 'Quicksand', sans-serif;
+  color: WhiteSmoke;
+  display: inline-block;
+  font-size: 100%;
+  /*width: 150px;*/
+  width: 12%;
+  padding: 0 0em;
+}
+
+.unfinished_link:hover{
+  background-image: url(../Images/construction.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: mediumseagreen;
+  color: rgba(245,245,245,0.7); /*whitesmoke, transparency */
+  width: inherit;
+  display: block;
+}
+.responsive > .unfinished_link li:after{
+  background-image: url(../Images/construction.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: mediumseagreen;
+  color: rgba(245,245,245,0.7); /*whitesmoke, transparency */
+  width: 100%;
+  display: block;
+}
+
+.responsive > .unfinished_link li:focus{
+  background-image: url(../Images/construction.png);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+  background-color: mediumseagreen;
+  color: rgba(245,245,245,0.7); /*whitesmoke, transparency */
+  width: 100%;
+  display: block;
+}
+.title_block h1{
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(40,120,77);
+  font-size: 320%;
+  font-weight: 500;
+  word-spacing: 0.25em;
+  letter-spacing: .05em;
+  }
+
+.video a{
+  max-width: 400px;
+  margin-left: auto;
+  margin-right:auto;
+  margin-top: 25px;
+  margin-bottom: 25px;
+  display: block;
+}
+hr{
+  border-top: 5px solid mediumseagreen;
+  height: 0px;
+  width: 80%;
+  margin-top: 25px;
+}
+.footer {
+background-color: mediumseagreen;
+width: 100%;
+padding-top: 5px;
+padding-bottom: 5px;
+padding-left: 0;
+padding-right: 0;
+margin: 0 0 0 0;
+clear: left;
+}
+.footer p{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: WhiteSmoke;
+  font-size: 100%;
+  font-weight: 400;
+  margin: 0px;
+  clear: left;
+}
+iframe{
+  display: block;
+  margin: auto;
+  }
+
+/* only for small screens (<980px)*/
+@media screen and (max-width: 980px){
+	.navigation a:not(.current_page){display:none;}
+	.navigation a.mobile_menu{
+	  position: absolute;
+	  left: 74px;
+	  top: 20px;
+	  display: block;
+	}
+    .navigation > .mobile_menu {
+	  position: absolute;
+	  left: 74px;
+	  top: 20px;
+	  display: block;
+
+	}
+	/*.responsive > .mobile_menu{
+	  display: none;
+	}*/
+	.responsive > .mobile_menu{
+	  position: absolute;
+	  left: 74px;
+	  top: 20px;
+	  display: block;
+	}
+    .responsive{
+        background-color: mediumseagreen;
+        width: 100%;
+        min-height: 70px;
+        height: 258px;
+        overflow: visible;
+        position: fixed;
+        top: 0px;
+        left: 0px;
+        right: 0px;
+        padding-left: 84px;
+        padding-right: 100px;
+        z-index: 100;
+  }
+   .navigation ul{
+       margin-left: 20px;
+   }
+   .responsive ul{
+        position: relative;
+        width: 100%;
+        height: 40px;
+        padding-left: 18px;
+        padding-right: 18px;
+        margin-left: 20px;
+        text-align: center;
+        /*border: 2px solid red;*/
+    }
+	.responsive a:not(.mobile_menu):not(.current_page){
+	  float: none;
+	  display: block;
+	  text-align: left;
+      text-align: center;
+      width: 100%;
+      font-size: 150%;
+      font-weight: 400;
+      line-height: 38px;
+      background-color: mediumseagreen;
+      /*border: 1px solid blue;*/
+    
+	}
+    .current_page:not(.responsive){
+	    background-color: mediumseagreen;
+	}
+	.current_page:not(.responsive):hover{
+	    background-color: mediumseagreen;
+	}
+	.responsive .current_page{
+	    float: none;
+	    display: block;
+	    text-align: left;
+        text-align: center;
+        width: 100%;
+        font-size: 150%;
+        font-weight: 400;
+        line-height: 38px;
+        background-color: rgb(40,120,77);
+        /*border: 1px solid blue;*/
+	}
+	.responsive .current_page:hover{
+	  background-color: rgb(40,120,77);
+	}
+	
+  hr{
+    border-top: 5px solid mediumseagreen;
+    height: 0px;
+    width: 80%;
+    margin-top: 25px;
+}
+}

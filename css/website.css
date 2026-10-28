@@ -1,0 +1,255 @@
+*{
+  border: 1px solid rgba(0,0,0,0.3);
+    /* The * selector formats the entire webpage */
+  box-sizing: border-box;
+}
+body{
+  background-color: #000;
+  margin-top: 40px;
+  width: 100%;
+  padding: 0 0 0 0;
+  margin-left: 0px;
+
+  
+
+}
+h1{
+  font-family: 'Quicksand', sans-serif;
+  color: DarkGray;
+  font-size: 320%;
+  font-weight: 500;
+  word-spacing: 0.25em;
+  letter-spacing: .05em;
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 0px;
+}
+h2{
+  font-family: 'Quicksand', sans-serif;
+  color: DarkGray;
+  font-size: 200%;
+  font-weight: 400;
+  text-align: center;
+  padding-top: 0px;
+}  
+p{
+  font-family: 'Quicksand', sans-serif;
+  color: DarkGray;
+  font-size: 24px;
+  width: 100%;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+}
+.navigation{
+  background-color: rgb(61,0,153);
+  width: 100%;
+  height: auto;
+  overflow: visible;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  padding: 0 0;
+  z-index: 100;
+  }
+ .title_block{
+ background-image: url(../Photos/bund_sunrise.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 0;
+ top: 0px;
+ left: 0px;
+ padding-top: 1.25%;
+ padding-bottom: 55%;
+ color: DarkGray;
+ text-align: center;
+ }
+ .SJTU_block{
+ background-image: url(../Photos/sjtu_main_gate.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 0;
+ min-height: 400px;
+ top: 0px;
+ left: 0px;
+ padding-top: 0.25%;
+ padding-bottom: 56%;
+ color: Darkgray;
+ text-align: center;
+ }
+ .about_block{
+ background-image: url(../Photos/profile.jpg);
+ background-size: contain;
+ background-repeat: no-repeat;
+ width: 100%;
+ height: 0;
+ min-height: 400px;
+ top: 0px;
+ left: 0px;
+ padding-top: 5.25%;
+ padding-bottom: 51%;
+ text-align: center;
+ }
+ .SJTU_subtitle{
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  text-align: center;
+   }
+.navigation ul{
+  width: 100%;
+  height: 40px;
+  padding: 0 0;
+  text-align: center;
+  }
+.navigation li{
+  font-family: 'Quicksand', sans-serif;
+  display: inline-block;
+  color: Whitesmoke;
+  font-size: 200%;
+  font-weight: 400;
+  padding: 0 3%;
+}
+ .navigation li:hover{
+   background-color: rgb(90,0,226);
+ }
+.navigation a{
+  text-decoration: none;
+  color: WhiteSmoke;
+  font-weight: 400;
+}
+.current_page {
+  font-family: 'Quicksand', sans-serif;
+  background-color: rgb(90,0,226);
+  color: WhiteSmoke;
+  display: inline-block;
+  font-size: 100%;
+  padding: 0 3%;
+}
+.title_block h1{
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(61,0,153);
+  font-size: 320%;
+  font-weight: 500;
+  word-spacing: 0.25em;
+  letter-spacing: .05em;
+  }
+  .SJTU_block h1{
+  font-family: 'Quicksand', sans-serif;
+  color: Black;
+  font-size: 320%;
+  font-weight: 500;
+  word-spacing: 0.25em;
+  letter-spacing: .05em;
+  padding-top: 0;
+  }
+ .about_block h1{
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(61,0,153);
+  font-size: 320%;
+  font-weight: 500;
+  word-spacing: 0.25em;
+  letter-spacing: .05em;
+  } 
+.subtitle h2 {
+  font-family: 'Quicksand', sans-serif;
+  color: rgb(61,0,153);
+  font-size: 200%;
+  font-weight: 400;
+}
+.SJTU_block h2{
+  font-family: 'Quicksand', sans-serif;
+  color: Black;
+  font-size: 320%;
+  font-weight: 800;
+  word-spacing: 0.25em;
+  letter-spacing: .05em;
+  padding-top: 0;
+  }
+.SJTU_subtitle h3 {
+  font-family: 'Quicksand', sans-serif;
+  color: Black;
+  font-size: 200%;
+  font-weight: 400;
+}
+
+.map{
+  width: 100%;
+  }
+.two_photo_row img{
+  width: 49%;
+  padding-left: 2.5%;
+  padding-right: 2.5%;
+  }
+
+.two_photo_row_profile img{
+  width: 49%;
+  padding-left: 8%;
+  padding-right: 8%;
+  }
+.panorama img{
+  width: 100%;
+  }
+.footer {
+background-color: rgb(61,0,153);
+width: 100%;
+padding-top: 5px;
+padding-bottom: 0;
+padding-left: 0;
+padding-right: 0;
+clear: left;
+}
+.footer p{
+  text-align: center;
+  font-family: 'Quicksand', sans-serif;
+  color: WhiteSmoke;
+  font-size: 100%;
+  font-weight: 400;
+  bottom: 0px;
+  clear: left;
+}
+iframe{
+  display: block;
+  margin: auto;
+  }
+
+.square{
+  float: left;
+  position: relative;
+  width: 24%;
+  padding-bottom: 25%;
+  margin: 0.45%;
+  min-width: 200px;
+  min-height: 200px;
+  background-color: rgb(90,0,226);
+  overflow: hidden;
+}
+.image{
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  padding: 2%;
+
+}
+.table{
+  display:table;
+  height:100%;
+  width:100%;
+}
+.table_cell{
+  display:table-cell;
+  vertical-align:middle;
+  height:100%;
+  width:100%;
+  background-color: black;
+}
+.table_cell img{
+  image-orientation: from-image;
+  max-height: 100%;
+  max-width: 100%;
+  height: auto;
+  width: auto;
+}

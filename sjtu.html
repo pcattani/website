@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>An Oriental Odyssey | SJTU</title>
+<meta charset="utf-8">
+<link href="css/china.css" type="text/css" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css?family=Quicksand:400,500" rel="stylesheet">
+<link rel="icon" href="Images/pc_favicon2.png">
+</head>
+<body>
+	<div class="navigation" id="mynav"><! This div is for the links on the top of the blog>
+	  <ul>
+	      
+	      <a class="link" href="index.html">Home</a>
+		  <a class="link" href="posts.html">Posts</a>
+		  <a class="link" href="photos.html">Photos</a>
+		  <a class="current_page">SJTU</a>
+	      <a class="link" href="about.html">About</a>
+
+	   </ul>
+	   <a href="javascript:void(0);" class="mobile_menu" onclick="toggle()" ><img src="Images/menu_whitesmoke.svg" id="menu_img"></a>
+    </div> 
+    
+	<div class="SJTU_block">
+      <h2>上海交通大学<br/>SJTU</h2>
+</div>
+
+<h1>Shanghai Jiao Tong University, My Host School</h1>
+<p>I spent the semester at Shanghai Jiao Tong University. SJTU is one of the best STEM schools in China.
+There are several campuses, and I spent time at two of them. From 
+January 6 - February 18, I was 
+located at the Xuhui campus, close to the city center. This is a 
+smaller urban campus which is primarily home to 
+graduate programs, the business school, and the law school. The main 
+entrance to the Xuhui campus is shown above. From February 18 - May 13, 
+I was located
+at the Minhang campus, the largest campus that houses most of the undergraduate programs.</p>
+<div class="map">
+  <iframe src="https://www.google.com/maps/d/u/0/embed?mid=1QSVDFmXb-46RoikaQrxTkEfPi5E" 
+  width="640" height="480" <p>Your browser does not support this content (SJTU Campus Locations 
+  Map)</p></iframe>
+  
+</div>
+<h1>Xuhui Campus</h1>
+<div class="two_photo_row">
+	<img src="Images/faculty_club.jpg">
+	<img src="Images/xuhui_quad.jpg">
+</div>
+<p>For the six weeks the Purdue group spent at this campus, our home was the SJTU Faculty Club. It is similar to the hotel
+at the Purdue Memorial Union, but not quite as nice. On the right is a picture of the main quad here. Older 
+people from around the city do tai chi around the statue every morning. 
+This group frequently included an 
+older gentleman with a two foot long sword. I never got close enough to 
+tell if it was real.</p>
+<p>The Xuhui campus was very quiet during our time there. The long winter break in the 
+Chinese academic calender is over Chinese New Year, so the rest of the 
+campus was on break  from 
+January 23 - February 19.  My Purdue cohort only got 10 of those days off.</p>
+<h1>Minhang Campus</h1>
+<div class="two_photo_row">
+	<img src="Images/minhang_lake.jpg">
+	<img src="Images/slipper_gate.jpg">
+</div>
+<p>For the last 12 weeks of the program, we stayed at the Minhang 
+campus. This campus is located about 25 km south of downtown, an hour 
+by subway. Everything on campus is very spread out, even compared to Purdue, 
+and I lived about a mile off campus, so I bought a cheap bike for 
+navigation.
+This campus felt like more like the large public school campuses I 
+grew up around (UNC, IU, Purdue) than the urban Xuhui campus. Crowds of 
+students on bikes pedal around to class, the dining halls, the library, and the 
+gym.</p>  
+<p>At this campus I took 3 classes: Thermodynamics II, Heat and 
+Mass Transfer, and Structure and Properties of Materials. The classes 
+were in English, and the schedule was accelerated (12 weeks, compared to 
+the usual 16). Each lecture had about 35 students, evenly split 
+between Purdue students and SJTU students. The SJTU students took the 
+class as an opportunity to practice English and work toward a techincal English 
+skills certificate/minor. Interestingly, the Chinese 
+students don't have labs, so the Purdue students have a special lab class for Heat and 
+Mass Transfer.</p>
+<div class="panorama">
+   <img src="Images/minhang_pano.jpg">
+</div>
+
+<div class="footer">
+	<p>An Oriental Odyssey  |  Designed by Peter Cattani, 2017</p>
+</div>
+
+<script>
+	/* Toggle between showing and hiding the navigation menu links when the user clicks on the hamburger menu / bar icon */
+  function toggle() {
+      var x = document.getElementById("mynav");
+      var y = document.getElementById("menu_img");
+     // alert(y.src);
+
+      if (x.className === "navigation") {
+          x.className = "responsive";
+      } else {
+          x.className = "navigation";
+      }
+      if(y.src.search("menu") ==-1){
+		  y.src = y.src.replace("chevrons_whitesmoke.svg","menu_whitesmoke.svg");
+	  } else {
+		  y.src = y.src.replace("menu_whitesmoke.svg","chevrons_whitesmoke.svg");
+	  }
+  } 
+</script>
+
+</body>
+</html>
